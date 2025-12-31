@@ -1,0 +1,135 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+  margin: 20px;
+}
+
+h1 {
+  color: #007bff;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+table th, table td {
+  padding: 12px;
+  border: 1px solid #dee2e6;
+  text-align: left;
+}
+
+table th {
+  background-color: #e9ecef;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+form label {
+  display: block;
+  margin: 8px 0 4px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="date"],
+form input[type="number"],
+form textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+form textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+form button {
+  margin-top: 12px;
+}
+
+.nav {
+  margin-bottom: 20px;
+  text-align: right;
+  font-family: Arial, sans-serif;
+}
+.nav form, .nav a, .nav span {
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 0.9rem;
+}
+.nav button {
+  background: none;
+  border: none;
+  color: #007bff;
+  cursor: pointer;
+  font-size: 0.9rem;
+  padding: 0;
+}
+.nav button:hover, .nav a:hover {
+  text-decoration: underline;
+}
+
+
+.form-container {
+  max-width: 400px;
+  margin: 100px auto; /* centers the container horizontally and adds space on top */
+  padding: 30px;
+  background-color: #ffffff;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  text-align: center; /* center-align contents inside */
+}
+
+.form-container h1 {
+  margin-bottom: 25px;
+  font-weight: 700;
+  color: #007bff;
+  font-size: 32px;
+}
+
+.form-container a {
+  display: inline-block;
+  margin-top: 20px;
+  font-weight: 600;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.form-container a:hover {
+  text-decoration: underline;
+}
+
